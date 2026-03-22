@@ -1,6 +1,3 @@
-# monte-carlo-fx
-Monte-Carlo simulation on currency pair
-
 # Monte Carlo FX Simulator
 
 Симулятор стоимости криптовалютного портфеля методом **Монте-Карло** с оценкой волатильности через **GARCH(1,1)** и расчётом риск-метрик **VaR / CVaR**.
@@ -32,29 +29,31 @@ Monte-Carlo simulation on currency pair
 ## Визуализация
 
 ### Fan Chart — BTC/USD
-![BTC Fan Chart](assets/fan_BTC_USD.png)
+<img width="1567" height="820" alt="fan_BTC_USD" src="https://github.com/user-attachments/assets/3c1949f9-033a-4098-8aef-f6ade3810eb6" />
+
 
 ### Fan Chart — ETH/USD
-![ETH Fan Chart](assets/fan_ETH_USD.png)
+<img width="1540" height="820" alt="fan_ETH_USD" src="https://github.com/user-attachments/assets/e687a0a0-c009-42ee-aa1a-a44b9f2867ae" />
 
 ### Распределение портфеля
-![Portfolio Distribution](assets/portfolio_distribution.png)
+<img width="1507" height="820" alt="portfolio_distribution" src="https://github.com/user-attachments/assets/277eb6ec-0e3f-40a4-bbcf-8a06a9a15001" />
+
 
 ---
 
 ## Структура проекта  
 
-monte-carlo-fx/
-├── src/
-│ ├── data_loader.py # Загрузка данных yfinance
-│ ├── garch_model.py # GARCH(1,1) оценка волатильности
-│ ├── simulator.py # GBM симуляция (Monte Carlo)
-│ ├── portfolio.py # Стоимость портфеля, VaR, CVaR
-│ └── visualizer.py # Графики и визуализация
-├── assets/ # Скриншоты для README
-├── main.py # Точка входа
-├── requirements.txt
-└── README.md
+monte-carlo-fx/  
+├── src/  
+│ ├── data_loader.py # Загрузка данных yfinance  
+│ ├── garch_model.py # GARCH(1,1) оценка волатильности  
+│ ├── simulator.py # GBM симуляция (Monte Carlo)  
+│ ├── portfolio.py # Стоимость портфеля, VaR, CVaR  
+│ └── visualizer.py # Графики и визуализация  
+├── assets/ # Скриншоты для README  
+├── main.py # Точка входа  
+├── requirements.txt  
+└── README.md  
 
 
 ---
